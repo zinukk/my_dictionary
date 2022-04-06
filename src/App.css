@@ -1,0 +1,119 @@
+body {
+  position: relative;
+  background-color: rgb(205, 200, 241);
+}
+
+@font-face {
+  font-family: "twayair";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo_box {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  border-bottom: 3px solid rgb(107, 88, 230);
+  margin: auto;
+  background: rgb(255, 255, 255);
+  color: rgb(86, 63, 238);
+}
+.title {
+  font-size: 2em;
+  width: fit-content;
+  margin: auto;
+  padding: 1em;
+}
+
+.container {
+  margin: 30px auto;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+  min-width: 70em;
+}
+
+.container > div {
+  border: 2px solid rgb(107, 88, 230);
+  height: 15em;
+  margin: 0.5em;
+  border-radius: 15px;
+  padding: 0 20px;
+  background-color: white;
+  position: relative;
+}
+
+.addbt {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  background-color: rgb(107, 88, 230);
+  color: white;
+  font-size: 40px;
+  transition: 0.8s;
+}
+
+.formbox {
+  width: 30vw;
+  margin: 50px auto;
+  font-weight: bold;
+}
+
+.formbox > input {
+  width: 30vw;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(107, 88, 230);
+  border-radius: 5px;
+}
+
+.formbox > p {
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.formbox > button {
+  width: 30vw;
+  height: 40px;
+  margin-top: 50px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(108, 90, 227);
+}
+.deletebt {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  background-color: rgb(108, 90, 227);
+  border-radius: 3px;
+  color: white;
+  border: 1px solid rgb(108, 90, 227);
+}
+.fixbt {
+  position: absolute;
+  right: 70px;
+  top: 18px;
+  background-color: rgb(108, 90, 227);
+  border-radius: 3px;
+  color: white;
+  border: 1px solid rgb(108, 90, 227);
+}
+.combt {
+  position: absolute;
+  top: 18px;
+  right: 120px;
+  background-color: rgb(108, 90, 227);
+  border-radius: 3px;
+  color: white;
+  border: 1px solid rgb(108, 90, 227);
+}
